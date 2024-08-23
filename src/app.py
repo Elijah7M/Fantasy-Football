@@ -760,8 +760,8 @@ app.layout = html.Div([
                         'height': '57%', 
                         'margin-top': '1vh',
                         'margin-left': '1%',
-                        'min-height': '49vh',
-                        'max-height': '49vh'
+                        #'min-height': '49vh',
+                        #'max-height': '49vh'
                     }) 
                 ], style={'display': 'flex', 'width': '100%', 'box-sizing': 'border-box'})
             ], style={'display': 'block'}),  # Initially visible
