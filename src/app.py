@@ -1744,7 +1744,7 @@ def update_player_selection_and_details(n_clicks, sort_by, search_value, clicked
                 max=10,
                 showCurrentValue=True,
                 color={"gradient": True, "ranges": {"green": [0, 10]}},
-                size=200,
+                size=100,
                 scale={'start': 0, 'interval': 1, 'labelInterval': 2, 'tickwidth': 2}
             ),
             daq.Gauge(
@@ -1754,7 +1754,7 @@ def update_player_selection_and_details(n_clicks, sort_by, search_value, clicked
                 max=10,
                 showCurrentValue=True,
                 color={"gradient": True, "ranges": {"red": [0, 10]}},
-                size=200,
+                size=100,
                 scale={'start': 0, 'interval': 1, 'labelInterval': 2, 'tickwidth': 2}
             ),
         ], style={'display': 'flex', 'flex-direction': 'row', 'align-items': 'center'}),
